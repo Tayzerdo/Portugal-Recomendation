@@ -11,3 +11,5 @@ The venues category uses Fourquare to take the Top 10 Most common venues display
 The KMeans is the library used to group the boroughs into cluster based on their Most common venues.
 
 The folium Map is used to plot the places using the latitude and longitude.
+
+The goal for this study is create groups of boroughs with the common venues and be able to know what is the most frequented places regarding each cluster
