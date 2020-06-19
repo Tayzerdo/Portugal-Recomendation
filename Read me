@@ -1,0 +1,13 @@
+Portugal continental recommendation
+
+This a project based on foursquare infomation regarding the boroughs in Portugal into groups.
+
+The boroughs were take from https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_de_Portugal_por_popula%C3%A7%C3%A3o using the requests and BeautifulSoup library.
+
+The districits were taken using Nominatim library and using the boroughs.
+
+The venues category uses Fourquare to take the Top 10 Most common venues displayed into categories based on their frequency.
+
+The KMeans is the library used to group the boroughs into cluster based on their Most common venues.
+
+The folium Map is used to plot the places using the latitude and longitude.
